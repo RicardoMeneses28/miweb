@@ -1,0 +1,29 @@
+/* Se usa almohadilla para darle estilo a los ID*/
+#Titulo
+{
+
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    /* border: 5px black solid; */
+    border-style: solid;
+    border-color: blue;
+    border-radius: 5px;
+    border-width: 5px;
+}
+/* Se usa el punto para darle estilo a las clases */
+.post
+{
+  color: black;
+  /* Propiedades de background*/
+  background-color: grey;
+  ba
+
+
+}
+/*Darle estilo a los H2 que pertenezcam a la seccion*/
+section h2{
+    color: black;
+    text-decoration: underline;
+
+}
