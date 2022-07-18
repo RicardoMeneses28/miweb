@@ -1,29 +1,98 @@
 /* Se usa almohadilla para darle estilo a los ID*/
+header{
+  background-color:#364552;
+  padding:0.05%;
+  border-style: unset;
+    border-color: darkslategray;
+    border-radius: 2px;
+    border-width: 20px;
+}
+section{
+
+  background-color: antiquewhite;
+  padding: auto;
+}
 #Titulo
 {
 
-    color: black;
+    color: whitesmoke;
     text-align: center;
-    font-size: 30px;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 40px;
     /* border: 5px black solid; */
-    border-style: solid;
-    border-color: blue;
-    border-radius: 5px;
-    border-width: 5px;
+    
+  
+}
+body{
+
+  margin: 0;
+  background-color: white;
 }
 /* Se usa el punto para darle estilo a las clases */
 .post
 {
   color: black;
   /* Propiedades de background*/
-  background-color: grey;
-  ba
+  background-color: white;
+  text-align: center;
+  list-style-position: inside;
+  width: 500px;
+/*centrar elemento*/
+  margin: 0 auto;
+  border: black 1px solid;
 
 
 }
+/* dando estilo a la lista
+ol{
+  list-style-position:inside;
+
+
+} */
 /*Darle estilo a los H2 que pertenezcam a la seccion*/
 section h2{
+     font-family: 'Courier New', Courier, monospace;                          /*Cambiar la fuente del texto   */
     color: black;
     text-decoration: underline;
+  
 
+}
+section h1{
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: 24px;
+}
+section li{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+/*Le damos formato a los links */
+a:link{
+    
+  color: white;
+   
+}
+a:visited{
+  color: white;
+}
+a:hover{
+  color:red;
+}
+footer{
+   background-color: darkslategrey; 
+   color:white;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: small;
+   padding: 2rem;
+
+}
+.derecha{
+  float: right;
+  right: 100px;
+}
+footer p{
+
+  margin: 0;
+}
+footer a{
+  text-decoration: none;
 }
